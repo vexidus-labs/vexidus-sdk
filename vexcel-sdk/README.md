@@ -64,5 +64,5 @@ See [NOTICE](./NOTICE) for details.
 ## Links
 
 - **Website**: https://vexcel.xyz
-- **Documentation**: https://docs.vexidus.io/architecture/atomence
+- **Documentation**: https://docs.vexidus.io/architecture/hypersync#vexcel--adaptive-attestation-dag
 - **Vexidus Blockchain**: https://vexidus.io
