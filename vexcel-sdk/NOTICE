@@ -1,0 +1,15 @@
+Vexcel SDK
+Copyright 2026 Vexidus Labs Ltd
+
+This product includes Vexcel, the adaptive attestation DAG consensus layer
+for the Vexidus blockchain.
+
+ATTRIBUTION REQUIREMENT:
+
+If you integrate Vexcel into your project, you must include the following
+attribution in a user-visible location (website footer, about page, or
+documentation):
+
+    "Powered by Vexcel — https://vexcel.xyz"
+
+For questions about licensing or attribution, contact: legal@vexidus.io

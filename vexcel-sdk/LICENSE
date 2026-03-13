@@ -1,0 +1,45 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   Copyright 2026 Vexidus Labs Ltd
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+   =======================================================================
+
+   ATTRIBUTION REQUIREMENT (NOTICE)
+
+   This software includes Vexcel, the adaptive attestation DAG consensus
+   layer developed by Vexidus Labs Ltd.
+
+   If you use Vexcel in your project, you MUST include the following
+   attribution in a user-visible location (e.g. website footer, about page,
+   or documentation):
+
+       "Powered by Vexcel — https://vexcel.xyz"
+
+   This attribution requirement is part of the NOTICE file under Section 4(d)
+   of the Apache License 2.0. Removal of this attribution violates the license.
+
+   =======================================================================
+
+   OPTIONAL DONATION
+
+   Vexcel is open-source and free to use. If it adds value to your project,
+   consider supporting continued development:
+
+       USDC (Vexidus): Vx0FndtnVexidusLabsTreasury
+       USDC (Ethereum): 0x... (TBD)
+
+   Donations are voluntary and do not affect your license rights.

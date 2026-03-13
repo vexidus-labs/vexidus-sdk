@@ -1,0 +1,17 @@
+[package]
+name = "vexcel-sdk"
+version = "1.0.0"
+edition = "2021"
+description = "Vexcel SDK — Adaptive attestation DAG client for the Vexidus blockchain"
+license = "Apache-2.0"
+repository = "https://github.com/vexidus-labs/vexidus-sdk"
+homepage = "https://vexcel.xyz"
+keywords = ["blockchain", "consensus", "dag", "attestation", "vexidus"]
+categories = ["cryptography::cryptocurrencies"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", features = ["json"] }
+
+[dev-dependencies]
