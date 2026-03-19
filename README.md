@@ -11,7 +11,8 @@ Vexidus is a next-generation Layer 1 blockchain with native token standards, an 
 | [Wallet SDK](./wallet-sdk/) | Key generation, transaction signing, balance queries, bundle construction | Live |
 | [DEX SDK](./dex-sdk/) | AMM pool interaction, swap quotes, liquidity management | Live |
 | [Validator SDK](./validator-sdk/) | Node setup, staking, delegation, validator management | Live |
-| [IntentVM](./intentvm/) | Natural language intent parsing, atomic multi-operation transactions | Live |
+| [IntentVM](./intentvm/) | Natural language intent parsing, atomic multi-operation transactions (U.S. Patent App. 19/571,463) | Live |
+| [Vexcel SDK](./vexcel-sdk/) | Attestation DAG — anchor data, verify proofs, query attestations | Live |
 
 ## Quick Start
 
