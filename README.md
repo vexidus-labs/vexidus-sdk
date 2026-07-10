@@ -4,13 +4,15 @@ Official SDKs for building on the Vexidus blockchain.
 
 Vexidus is a next-generation Layer 1 blockchain with native token standards, an on-chain DEX, post-quantum security, and intent-based transactions — no smart contracts required.
 
+> 🛡️ **Running a validator? Beta program — by application.** We're onboarding a first cohort of **up to ~20 beta-testnet validators** (more slots in later waves). Onboarding is **coordinated, not self-serve**: the network is completing a consensus-core upgrade, so a node built from the public setup steps cannot yet auto-join — accepted operators receive the correct build, genesis, and bootstrap details directly. **Apply:** [application form](https://docs.google.com/forms/d/e/1FAIpQLSczUhY4F_eNL_buvMphFMPFwGkth3lxtMwB7ynirgBXX6-kCA/viewform) or email **validators@vexidus.com**. See the [Validator SDK](./validator-sdk/).
+
 ## SDKs
 
 | SDK | Description | Status |
 |-----|-------------|--------|
 | [Wallet SDK](./wallet-sdk/) | Key generation, transaction signing, balance queries, bundle construction | Live |
 | [DEX SDK](./dex-sdk/) | AMM pool interaction, swap quotes, liquidity management | Live |
-| [Validator SDK](./validator-sdk/) | Node setup, staking, delegation, validator management | Live |
+| [Validator SDK](./validator-sdk/) | Node setup, staking, delegation, validator management | Beta (by application) |
 | [IntentVM](./intentvm/) | Natural language intent parsing, atomic multi-operation transactions (U.S. Patent App. 19/571,463) | Live |
 | [Vexcel SDK](./vexcel-sdk/) | Attestation DAG — anchor data, verify proofs, query attestations | Live |
 
@@ -86,7 +88,7 @@ let bundle = IntentBuilder::new()
 - **Native Addresses**: `Vx` prefix (base58), EVM-compatible `0x` for MetaMask
 - **Native Hashes**: `Vxh` prefix (BLAKE3), `0x` hex for EVM tools
 - **Gas**: ~$0.0002 per transfer (10 nanoVXS/gas)
-- **Finality**: Adaptive block time (500ms–12s)
+- **Finality**: BFT instant finality (2f+1 quorum)
 - **Token Standards**: VSC-7 (fungible), VSC-21 (NFT), VSC-55 (multi-token), VSC-8 (stablecoin)
 - **Post-Quantum**: Ed25519 + Dilithium3 hybrid keypairs
 
